@@ -242,6 +242,9 @@ footer{
         flex-direction: column;
         padding: 20px;
     }
+    .navbar> ul{
+        flex-direction: column;
+    }
     .hero-section{
         flex-direction: column;
     }
