@@ -80,6 +80,7 @@ header{
     border-radius: 41px;
 }
 
+
 #hero-camera{
     position: absolute;
     align-self: center;
@@ -234,4 +235,38 @@ footer{
     text-decoration: none;
     color: #fff;
     margin-right: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero-image> img{
+        width: 100%;
+    }
+    .media-logos{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+    }
+    .card-section> a{
+        text-align: center;
+    }
+    .featured-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .featured-section> img{
+        width: 100%;
+    }
 }
